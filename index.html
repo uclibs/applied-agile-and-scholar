@@ -43,12 +43,12 @@
         <section>
           <h2>Applied Agile and<br />Open Source Development</h2>
           
-          <p>January 24, 2017</p>
+          <p>June 19, 2019</p>
 
-          <p style="padding-top: 1em">Sean Crowe / Thomas Scherz / James Van Mil</p>
+          <p style="padding-top: 1em">Chuck Greenman / Glen Horton /<br />Thomas Scherz / Brandon Spears</p>
 
           <p style="padding-top: 1em">University of Cincinnati Libraries<br />
-          Digital Collections and Repositories</p>
+          Application Development Team</p>
         </section>
 
         <!-- Sean start -->
@@ -58,7 +58,7 @@
         <section>
 
   
-          <section data-background="images/hydra-logo.png" data-background-size="40%">
+          <section data-background="images/samvera_logo.png" data-background-size="50%">
 	   		  	</section>
   				  <section data-background="images/HydraConnect2015-small-pano.jpg" data-background-size="100%">
 			     	</section>
@@ -70,20 +70,27 @@
 	   		   	</section>
 
 		   		  <section data-markdown>
-            ## Hydra Stack
+            ## Samvera Stack
             Separation of concerns with best of breed components
-            [*hydra stack - heirarchy of promises*](https://wiki.duraspace.org/display/hydra/Hydra+Stack+-+The+Hierarchy+of+Promises)
+            [*hydra stack - hierarchy of promises*](https://wiki.duraspace.org/display/hydra/Hydra+Stack+-+The+Hierarchy+of+Promises)
 			     	</section>
-            <section data-background="images/HydraArchitectureDiagramV2.jpg" data-background-size="80%">
+            <section data-background="images/hydra_9_architecture_2016.png" data-background-size="60%">
             </section>
 			  	</section>
 
           <section>
 		   		  <section data-markdown>
-            ## Local team
-            </section>
-           
-            <section data-background="images/team.jpg" data-background-size="99%">
+              ## Local team
+              
+              Glen Horton, Team Lead
+              
+              Thomas Scherz, Senior Developer
+              
+              Sean Crowe, Digital Analyst & Developer Librarian
+
+              Chuck Greenman, Co-Op Developer
+
+              Brandon Spears, Co-Op Developer
             </section>
           
             <section data-markdown>
@@ -94,7 +101,7 @@
             </section>
 		   		
             <section data-markdown>
-              ## IT@UC
+              ## Library IT
               * Servers
               * System administration
             </section>
@@ -102,21 +109,23 @@
 
           <section>
 		   		  <section data-markdown>
-              ## Scholar/Sufia
+              ## Scholar/Hyrax
               Self-submission repository responsive to University research and instruction community.  
-              Scholar@UC - [http://scholar.uc.edu](http://scholar.uc.edu)
+              Scholar@UC - [https://scholar.uc.edu](https://scholar.uc.edu)
             </section>
 
             <section data-markdown>
-             ## Sufia
+             ## Hyrax
              Gem created by Penn State and developed in consortium including UC 
             </section>
 
             <section data-markdown>
               ## Scholar@UC features
               * DOIs
-              * Collections
-              * Authentication
+              * Single sign-on
+              * License wizard
+              * Bulk ingest
+              * Branding
             </section>
 
             <section data-markdown>
@@ -129,7 +138,7 @@
               ## History
               <section data-markdown>
                 * Digital Repository Task Force; Winter, 2013
-                * Scholar@UC campus-wide rollout; Winter, 2016
+                * Scholar@UC campus-wide rollout; Fall, 2015
             </section>
             </section>
           </section>
@@ -212,13 +221,14 @@
             <p class="fragment">Formatted as, for example:</p>
         
             <p><code>
-            <span class="fragment">As a <i>user-type</i>,</span>
-            <span class="fragment">I want to <i>function</i>,</span>
-            <span class="fragment">so that <i>benefit</i>.</span>
-            </p></code>
+              <span class="fragment">As a <i>user-type</i>,</span><br />
+              <span class="fragment">I want to <i>function</i>,</span><br />
+              <span class="fragment">so that <i>benefit</i>.</span><br />
+            <span class="fragment">Done looks like...</span>
+            </code></p>
 
             <p class="fragment">
-              Goal to to express testable system behavior in a management-friendly format.
+              Goal is to express testable system behavior in a management-friendly format.
             </p>
         </section>
 
@@ -236,28 +246,28 @@
           <li class="fragment"> Scrum Master / Development Team </li>
 
           <br>
-          <h3> Workflow </h3>
+          <h3> Software Development Workflow </h3>
           <li class="fragment"> 2-3 week Sprints </li>
-          <li class="fragment"> Stand-ups 3 times a week (these which also serve as department meetings, but no longer!) </li>
+          <li class="fragment"> Stand-ups every day</li>
           <li class="fragment"> With a weekly swarm to address heavier topics</li>
-          <li class="fragment"> With product owner participation in sprint planning</li>
+          <li class="fragment"> Sometimes with product owner participation in planning</li>
          </section>
 
         <section>
-          <h2> More on Workflow </h2>
+          <h2> Software Development Workflow Details</h2>
           <li> It begins with sprint planning </li>
-          <li> Create local branches with git </li>
           <li> Collaborate, communicate, and code </li>
-          <li> Push branch, to Github, and open pull request </li>
+          <li> Open pull request </li>
           <li> Tests all pass, someone else reviews the branch </li>
           <li> Reviews include automated style review </li>
-          <li> It ends with sprint planning </li>
+          <li> It ends with sprint wrap-up </li>
+          <li> Demo for product owners</li>
         </section>
 
         <section data-markdown>
           ###Artifacts
 
-          The [product backlog](https://github.com/uclibs/scholar_uc/issues) and the [sprint backlog milestones](https://github.com/uclibs/scholar_uc/milestones)
+          The [product backlog](https://github.com/uclibs/ucrate/issues) and the [sprint milestones](https://github.com/uclibs/ucrate/milestones?state=closed)
         </section>
 
 				<section>
@@ -295,22 +305,20 @@
             </script>
 				</section>
 
-        <section data-markdown>
-          ## Code and Virtual Machines
-
-          UC Libraries (the Dev)  
-          IT@UC (the Ops)  
-          and the glue between.
-
-        </section>
-
         <section data-background="images/devops.png" data-background-size="60%">
         </section>
 
         <section data-markdown>
-          ## Dev Ops Responsibilities
+          ## Code and Virtual Machines
 
-          + Application Champion
+          Application Development Team (the Dev)  
+          Library IT (the Ops)  
+          and the glue between.
+
+        </section>
+
+        <section data-markdown>
+          ## Dev Ops Responsibilities
 
           + Design
              - provide stack scalability
@@ -345,36 +353,27 @@
         </section>
 
         <section data-markdown>
-          ## Infrastructure Automation
+          ## Infrastructure as Code
           
-          (Ansible, Puppet, Chef)
+          (easily reproduceable server environments)
         </section>
 
         <section data-background="images/scholar-servers.png" data-background-size="70%">
         </section>
 
-        <section data-background="images/scholar-puppet.png" data-background-size="70%">
-        </section>
-
         <section data-markdown>
-          ## Containers
+          ## Containerization
           
-          (Docker, Vagrant)
+          (virtualization)
         </section>
 
         <section data-background="images/scholar-vagrant.png" data-background-size="90%">
         </section>
 
         <section data-markdown>
-          ## Continuous Integration
+          ## Continuous Integration and Deployment
           
-          (Bamboo, Jenkins, Travis)
-        </section>
-
-        <section data-background="images/scholar-bamboo.png" data-background-size="80%">
-        </section>
-
-        <section data-background="images/scholar-travis.png" data-background-size="80%">
+          Quickly make changes available to users
         </section>
 
         <section data-markdown>
@@ -387,7 +386,7 @@
         <section data-background="images/scholar-script.png" data-background-size="80%">
         </section>
 
-        <section data-background="images/scholar-hailstorm.png" data-background-size="80%">
+        <section data-background="images/scholar-appspider.png" data-background-size="70%">
         </section>
 
         <section data-markdown>
@@ -402,11 +401,6 @@
           <h2>Questions?</h2>
 
           <p style="padding-top: 1em" data-markdown>[uclibs.github.io/applied-agile-and-scholar](https://uclibs.github.io/applied-agile-and-scholar)</p>
-
-          <p style="padding-top: 1em" data-markdown>[github.com/crowesn](https://github.com/crowesn)</p>
-          <p data-markdown>[github.com/hortongn](https://github.com/hortongn)</p> 
-          <p data-markdown>[github.com/scherztc](https://github.com/scherztc)</p> 
-          <p data-markdown>[github.com/jamesvanmil](https://github.com/jamesvanmil)</p>
         </section>
 
 			</div>
